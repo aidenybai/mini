@@ -1,0 +1,4 @@
+- `dev`: Run development server
+- `build`: Run to build distribution (configure this during deployment)
+- `serve`: Serve distribution files as a server
+- `cleanup`: Use prettier to clean up code

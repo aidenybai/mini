@@ -4,7 +4,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite serve",
-    "cleanup": "prettier --write packages"
+    "cleanup": "prettier --write *.{js,ts,jsx,tsx}"
   },
   "dependencies": {
     "million": "latest"

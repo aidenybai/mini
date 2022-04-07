@@ -1,27 +1,14 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "jsx": "react-jsx",
-    "jsxImportSource": "million",
+    "jsx": "preserve",
     "types": ["vite/client"],
     "lib": ["dom", "esnext"],
-    "declarationDir": "dist",
     "outDir": "dist",
     "moduleResolution": "node",
     "module": "esnext",
-    "target": "esnext",
-    "suppressImplicitAnyIndexErrors": true,
-    "allowSyntheticDefaultImports": true,
-    "noFallthroughCasesInSwitch": true,
-    "experimentalDecorators": true,
-    "downlevelIteration": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "esModuleInterop": true,
-    "noUnusedLocals": true,
-    "declaration": true,
-    "strict": true
+    "target": "esnext"
   },
-  "include": ["./**/*.ts", "./**/*.js", "./**/*.tsx", "./**/*.jsx"],
+  "include": ["./src/*.ts", "./src/*.js", "./src/*.tsx", "./src/*.jsx"],
   "exclude": ["node_modules", "dist"]
 }
