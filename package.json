@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite serve",
+    "cleanup": "prettier --write packages"
+  },
+  "dependencies": {
+    "million": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "latest",
+    "prettier": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
