@@ -7,11 +7,14 @@
     "cleanup": "prettier --write *.{js,ts,jsx,tsx}"
   },
   "dependencies": {
-    "million": "latest"
+    "million": "^1.10.3"
   },
   "devDependencies": {
     "@vitejs/plugin-legacy": "latest",
     "prettier": "latest",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "twind": "^0.16.17",
     "typescript": "latest",
     "vite": "latest"
   }
